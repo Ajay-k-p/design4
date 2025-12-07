@@ -22,7 +22,7 @@ export function About() {
               About FM Event Planners
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              FM Event Planners (Flavour Maker Event Management) is your trusted
+              FM Event Planners (Flavour Makers Event Management) is your trusted
               partner for creating memorable events. We specialize in wedding
               decorations, event setup, and comprehensive catering services that
               bring your vision to life.
@@ -33,13 +33,6 @@ export function About() {
               From intimate gatherings to grand celebrations, we handle every
               detail with precision and care.
             </p>
-            <motion.button whileHover={{
-            scale: 1.05
-          }} whileTap={{
-            scale: 0.95
-          }} className="bg-amber-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-600 transition-colors">
-              Learn More
-            </motion.button>
           </motion.div>
 
           <motion.div initial={{
