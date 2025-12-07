@@ -70,8 +70,14 @@ export function Contact() {
   icon={<PhoneIcon size={24} />}
   title="Call Us"
   subtitle="Mon-Sat from 9am to 7pm"
-  href="tel:+919496509214,+918137956267"
-  actionText="+91 9496509214, +91 81379 56267"
+  href="tel:+919496509214" 
+  // 👇 Change actionText to a JSX block
+  actionText={
+    <div className="flex flex-col items-center"> 
+      <span>+91 9496509214</span>
+      <span>+91 81379 56267</span>
+    </div>
+  }
   delay={0.1}
 />
 
