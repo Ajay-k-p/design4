@@ -65,14 +65,16 @@ export function Contact() {
             variants={containerVariants}
           >
             {/* Phone Card */}
-            <ContactCard 
-              icon={<PhoneIcon size={24} />}
-              title="Call Us"
-              subtitle="Mon-Sat from 9am to 7pm"
-              href="tel:+919496509214"
-              actionText="+91 9496509214"
-              delay={0.1}
-            />
+            {/* Phone Card */}
+<ContactCard 
+  icon={<PhoneIcon size={24} />}
+  title="Call Us"
+  subtitle="Mon-Sat from 9am to 7pm"
+  href="tel:+919496509214,+918137956267"
+  actionText="+91 9496509214, +91 81379 56267"
+  delay={0.1}
+/>
+
 
             {/* Email Card - Opens email client */}
             <ContactCard 

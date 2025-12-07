@@ -10,32 +10,32 @@ export function Menu() {
     image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=400&fit=crop',
     name: 'Premium Wedding Package',
     description: 'Complete wedding decoration with stage setup, floral arrangements, lighting, and catering for 200+ guests',
-    price: 'Contact'
+    price: ''
   }, {
     image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop',
     name: 'Elegant Reception Decor',
     description: 'Sophisticated reception decoration with backdrop, centerpieces, and ambient lighting',
-    price: 'Contact'
+    price: ''
   }, {
     image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop',
     name: 'Birthday Party Special',
     description: 'Themed birthday decoration with balloon arrangements, backdrop, and catering services',
-    price: 'Contact'
+    price: ''
   }, {
     image: 'https://images.unsplash.com/photo-1555244162-803834f70033?w=600&h=400&fit=crop',
     name: 'Catering Excellence',
     description: 'Multi-cuisine catering with appetizers, main course, desserts, and beverage service',
-    price: 'Contact'
+    price: ''
   }, {
     image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=400&fit=crop',
     name: 'Corporate Event Package',
     description: 'Professional event setup with stage decoration, seating arrangements, and business lunch catering',
-    price: 'Contact'
+    price: ''
   }, {
     image: 'https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&h=400&fit=crop',
     name: 'Custom Event Design',
     description: 'Personalized decoration and catering tailored to your specific theme and requirements',
-    price: 'Contact'
+    price: ''
   }];
   return <section id="menu" className="py-20 bg-neutral-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

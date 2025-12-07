@@ -64,7 +64,7 @@ export function Navigation() {
                   isScrolled ? 'text-gray-600' : 'text-gray-200'
                 }`}
               >
-                Flavour Maker Event Management
+                Flavour Makers Event Management
               </span>
             </div>
           </motion.div>
@@ -130,9 +130,6 @@ export function Navigation() {
             </button>
           ))}
 
-          <button className="w-full bg-amber-500 text-white px-6 py-2 rounded-full font-medium hover:bg-amber-600">
-            Book Now
-          </button>
         </div>
       </motion.div>
     </motion.nav>

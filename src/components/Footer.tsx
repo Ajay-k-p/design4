@@ -11,7 +11,7 @@ export function Footer() {
               <div>
                 <h3 className="text-xl font-bold">FM EVENT PLANNERS</h3>
                 <p className="text-xs text-gray-400">
-                  Flavour Maker Event Management
+                  Flavour Makers Event Management
                 </p>
               </div>
             </div>
