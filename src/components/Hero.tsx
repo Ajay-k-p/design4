@@ -20,7 +20,7 @@ export function Hero() {
           duration: 0.8,
           delay: 0.1
         }} className="mb-6">
-            <img src="/WhatsApp_Image_2025-11-26_at_12.57.01_AM.jpg" alt="FM Event Planners Logo" className="h-32 w-32 mx-auto object-contain" />
+            <img src="/FM.jpg" alt="FM Event Planners Logo" className="h-32 w-32 mx-auto object-contain"  style={{borderRadius:"50%",}} />
           </motion.div>
           <motion.h1 initial={{
           opacity: 0,
@@ -43,25 +43,21 @@ export function Hero() {
         }} transition={{
           duration: 0.8,
           delay: 0.5
-        }} className="text-xl md:text-2xl text-gray-200 mb-8">
+        }} className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8">
             Expert Event Decoration & Catering Services for Your Special Day
           </motion.p>
-          <motion.button initial={{
-          opacity: 0,
-          y: 30
-        }} animate={{
-          opacity: 1,
-          y: 0
-        }} transition={{
-          duration: 0.8,
-          delay: 0.7
-        }} whileHover={{
-          scale: 1.05
-        }} whileTap={{
-          scale: 0.95
-        }} className="bg-amber-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-amber-600 transition-colors shadow-xl">
-            Plan Your Event
-          </motion.button>
+          <motion.button
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.7 }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}
+  className="bg-amber-500 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-amber-600 transition-colors shadow-xl"
+>
+  Plan Your Event
+</motion.button>
+
         </div>
       </div>
 

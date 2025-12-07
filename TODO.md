@@ -1,0 +1,5 @@
+- [x] Fix Navigation component: Adjust logo size and text for mobile view
+- [x] Fix Hero component: Reduce text sizes on mobile for better readability
+- [x] Fix Services component: Ensure proper spacing and grid layout on mobile
+- [ ] Fix Footer component: Improve mobile layout for contact and social icons
+- [ ] Test the mobile view by running the development server

@@ -4,10 +4,10 @@ import { FacebookIcon, InstagramIcon, TwitterIcon, LinkedinIcon } from 'lucide-r
 export function Footer() {
   return <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/WhatsApp_Image_2025-11-26_at_12.57.01_AM.jpg" alt="FM Event Planners Logo" className="h-12 w-12 object-contain" />
+              <img src="/FM.jpg" alt="FM Event Planners Logo" className="h-12 w-12 object-contain"  style={{borderRadius:"50%",}} />
               <div>
                 <h3 className="text-xl font-bold">FM EVENT PLANNERS</h3>
                 <p className="text-xs text-gray-400">
@@ -65,23 +65,8 @@ export function Footer() {
             <div className="flex gap-4">
               <motion.a whileHover={{
               scale: 1.2
-            }} href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-500 transition-colors">
-                <FacebookIcon size={20} />
-              </motion.a>
-              <motion.a whileHover={{
-              scale: 1.2
-            }} href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-500 transition-colors">
+            }} href="https://www.instagram.com/fm_event_planners?igsh=MXRhbmF2ZjZ2OTVpYw==" className="bg-gray-800 p-2 rounded-full hover:bg-amber-500 transition-colors">
                 <InstagramIcon size={20} />
-              </motion.a>
-              <motion.a whileHover={{
-              scale: 1.2
-            }} href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-500 transition-colors">
-                <TwitterIcon size={20} />
-              </motion.a>
-              <motion.a whileHover={{
-              scale: 1.2
-            }} href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-500 transition-colors">
-                <LinkedinIcon size={20} />
               </motion.a>
             </div>
           </div>

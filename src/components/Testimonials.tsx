@@ -8,17 +8,17 @@ export function Testimonials() {
     threshold: 0.1
   });
   const testimonials = [{
-    name: 'Sarah Johnson',
+    name: 'Ajith',
     role: 'Wedding Client',
     content: 'Absolutely phenomenal! The food was exquisite and the service was impeccable. Our guests are still talking about the amazing meal.',
     rating: 5
   }, {
-    name: 'Michael Chen',
+    name: 'Anshif',
     role: 'Corporate Event Manager',
     content: 'Professional, reliable, and the quality is unmatched. They have catered multiple events for our company and never disappoint.',
     rating: 5
   }, {
-    name: 'Emily Rodriguez',
+    name: 'Sana',
     role: 'Birthday Party Host',
     content: 'From planning to execution, everything was perfect. The team went above and beyond to make our celebration special.',
     rating: 5

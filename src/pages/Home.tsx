@@ -9,17 +9,34 @@ import { Testimonials } from '../components/Testimonials';
 import { Gallery } from '../components/Gallery';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
+
 export function Home() {
-  return <div className="w-full bg-neutral-50">
+  return (
+    <div className="w-full bg-neutral-50">
+
+      {/* FULL WIDTH */}
       <Navigation />
       <Hero />
-      <Services />
-      <Menu />
-      <WhyChooseUs />
-      <About />
-      <Testimonials />
+
+      {/* CENTERED CONTENT */}
+      <div className="max-w-7xl mx-auto px-4">
+        <Services />
+        <Menu />
+        <WhyChooseUs />
+        <About />
+        <Testimonials />
+      </div>
+
+      {/* FULL WIDTH */}
       <Gallery />
-      <Contact />
+
+      {/* CENTERED */}
+      <div className="max-w-7xl mx-auto px-4">
+        <Contact />
+      </div>
+
+      {/* FULL WIDTH */}
       <Footer />
-    </div>;
+    </div>
+  );
 }

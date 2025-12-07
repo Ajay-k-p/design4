@@ -8,7 +8,7 @@ export function Gallery() {
     threshold: 0.1
   });
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const images = ['https://images.unsplash.com/photo-1555244162-803834f70033?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1547573854-74d2a71d0826?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop', 'https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&h=600&fit=crop'];
+  const images = ['Gallery1.jpeg', 'Gallery2.jpeg', 'Gallery3.jpeg', 'Gallery4.jpeg', 'Gallery5.jpeg  ', 'Gallery6.jpeg', 'Gallery7.jpeg', 'Gallery8.jpeg'];
   return <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div ref={ref} initial={{
