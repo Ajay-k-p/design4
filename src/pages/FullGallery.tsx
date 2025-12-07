@@ -12,6 +12,10 @@ export default function FullGallery() {
     'Gallery17.jpeg'
   ];
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Open specific image
   const openModal = (index) => setSelectedIndex(index);
   
