@@ -10,7 +10,14 @@ export default function FullGallery() {
     'Gallery5.jpeg','Gallery6.jpeg','Gallery7.jpeg','Gallery8.jpeg',
     'Gallery9.jpeg','Gallery10.jpeg','Gallery11.jpeg','Gallery12.jpeg',
     'Gallery13.jpeg','Gallery14.jpeg','Gallery15.jpeg','Gallery16.jpeg',
-    'Gallery17.jpeg'
+    'Gallery17.jpeg','Gallery18.jpeg','Gallery19.jpeg','Gallery20.jpeg',
+    'Gallery21.jpeg','Gallery22.jpeg','Gallery23.jpeg','Gallery24.jpeg',
+    'Gallery25.jpeg','Gallery26.jpeg','Gallery27.jpeg','Gallery28.jpeg',
+    'Gallery29.jpeg','Gallery30.jpeg','Gallery31.jpeg','Gallery32.jpeg',
+    'Gallery33.jpeg','Gallery34.jpeg','Gallery35.jpeg','Gallery36.jpeg',
+    'Gallery37.jpeg','Gallery38.jpeg','Gallery39.jpeg','Gallery40.jpeg',
+    'Gallery41.jpeg','Gallery42.jpeg','Gallery43.jpeg','Gallery44.jpeg',
+    'Gallery45.jpeg',
   ];
 
   // ✅ 1. Scroll to top on load
